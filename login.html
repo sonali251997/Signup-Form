@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <style>
+     *{
+         margin: 0px;
+         padding: 0px;
+         box-sizing: border-box;
+     }
+     body{
+         background-color: #344a72;
+         color:#fff;
+         line-height: 1.8em;
+         
+     }
+     
+     a{
+         text-decoration: none;
+     }
+     
+     #container{
+         padding:20px;
+         background-color: #fff;
+         margin: 30px auto;
+         max-width: 400px;
+         border:1px solid #333;
+         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+        .form-wrap{
+            color: #333;
+            padding: 15px 25px;
+        } 
+            
+
+     .form-wrap h1,
+     .form-wrap p{
+         text-align: center;
+      }
+
+      .form-wrap .form-group{
+          margin-top: 15px;
+      }
+
+     .form-wrap .form-group label{
+         display: block;
+         color: #666;
+     }
+     .form-wrap .form-group input{
+        width:100%;
+        padding: 10px;
+        border: #ddd 1px solid;
+        border-radius: 5px;
+     }
+     .form-wrap button{
+        display: block;
+         background:#49c1a2;
+         padding: 10px;
+         width: 100%;
+         margin-top: 20px;
+         color: #fff;
+         cursor: pointer;
+     }
+     .form-wrap button:hover{
+background: #37a08e ;
+     }
+     .form-wrap .bottom_line{
+         margin-top: 20px;
+         font-size: 18px;
+     }
+     footer{
+         text-align: center;
+         margin-top: 10px;
+     }
+     footer a{
+     color: #49c1a2;
+
+     }
+         
+         
+    </style>
+</head>
+<body>
+   <header id="container">
+       <div class="form-wrap">
+           <h1>Sign Up</h1>
+           <p>It's free and only take a minute</p>
+           <form>
+       <div class="form-group">
+           <label for="name">First Name</label>
+           <input type="text" name="firstname" id="F_name" placeholder="Enter your first name" required>
+       </div>
+       <div class="form-group">
+          <label for="last name">Last Name</label>
+           <input type="text" name="lasttname" id="L_name" placeholder="Enter your Last name" required>
+      </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" name="Email" id="E_name" placeholder="Enter your Email" required>
+        </div>
+       <div class="form-group">
+           <label for="pswd">password</label>
+          <input type="text" name="Password" id="pswd" placeholder="Enter your Password" required>
+       </div>
+       <div class="form-group">
+           <label for="c_pswd">Confrm password</label>
+           <input type="text" name="confrm password" id="cnfrm_pswd" placeholder="Confrm your password" required>
+        </div>
+
+        <div>
+            <button type="submit" id="submit">Sign up</button>
+        </div>
+    <p class="bottom_line">
+        By clicking the sign up button you agree to our
+         <a href="#">terms & condition </a>and 
+        <a href="#">Privacy Policy</a>
+    </p>
+
+    </form>
+        
+       <footer> 
+    <div>
+            Already have an account?<a href="#">Login Here</a>
+    </div>
+      </footer>
+   </div>
+</header> 
+        
+</body>
+</html>
